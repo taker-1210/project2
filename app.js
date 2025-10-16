@@ -1,7 +1,3 @@
-// Supabaseのクライアントをセットアップ
-// 下の２つの変数は、後ほどご自身のSupabaseプロジェクトのものに書き換えてください
-const SUPABASE_URL = 'https://swjjftstcmzkrclvhgns.supabase.co';
-const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN3ampmdHN0Y216a3JjbHZoZ25zIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjA1ODI1MjAsImV4cCI6MjA3NjE1ODUyMH0.5x811UYaPGh8E75p1XwpEo9hPu_KZd8GHQLNLZtkMh4';
 
 const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
